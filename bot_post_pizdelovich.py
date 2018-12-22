@@ -86,7 +86,7 @@ def request():
         time.sleep(60)
         request()
 
-for i in range(0,POST_KOL):
+for i in range(0,int(POST_KOL)):
     #time.sleep(40)
     ZNACH = str(i)
     print(ZNACH)
